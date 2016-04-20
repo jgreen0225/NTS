@@ -15,8 +15,20 @@
         {!! Form::text('Phone', null, ['class' => 'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('Address', 'Address:') !!}
-        {!! Form::text('Address', null, ['class' => 'form-control']) !!}
+        {!! Form::label('Street', 'Street:') !!}
+        {!! Form::text('Street', null, ['class' => 'form-control']) !!}
+    </div>
+    <div class="form-group">
+        {!! Form::label('City', 'City:') !!}
+        {!! Form::text('City', null, ['class' => 'form-control']) !!}
+    </div>
+    <div class="form-group">
+        {!! Form::label('State', 'State:') !!}
+        {!! Form::text('State', null, ['class' => 'form-control']) !!}
+    </div>
+    <div class="form-group">
+        {!! Form::label('Zip', 'Zip:') !!}
+        {!! Form::text('Zip', null, ['class' => 'form-control']) !!}
     </div>
     <div class="form-group">
         {!! Form::label('Notes', 'Customer Notes:') !!}
